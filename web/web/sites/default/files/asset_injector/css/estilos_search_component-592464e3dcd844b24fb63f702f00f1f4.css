@@ -1,0 +1,40 @@
+#edit-keys--2 {
+    width: 280px;
+}
+
+#edit-submit--2 {
+    position: absolute;
+    margin-left: -45px;
+    background-color: red;
+    border: none;
+    background: no-repeat;
+    background-image: url(/sites/default/files/header/lupa.png);
+    margin-top: -22px;
+    color: transparent;
+    z-index: 1;
+}
+
+
+
+#block-searchform-2 {
+  display:none;
+}
+
+#search-block-form--2{
+  
+      margin: auto;
+    width: fit-content;
+  
+}
+
+@media (max-width: 500px){
+ 
+ #block-searchform-2 {
+  display:inline;
+}
+
+#search-block-form{
+  display:none;
+}
+  
+}

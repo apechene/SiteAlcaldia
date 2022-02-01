@@ -1,0 +1,56 @@
+#container-main{
+    max-width: 92%;
+    margin-bottom: -15px;
+    box-shadow: 0px 26px 40px grey;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 28px;
+    margin-left: 4%;
+    background-color: white;
+    z-index: 2;
+    margin-top:-1px;
+    padding-left:3px;
+}
+
+#block-location-tabs-2 {
+    margin-bottom: 50px;
+}
+
+.Nuestro_Alcalde_Ima
+{
+   box-shadow: 0px 2px 7px grey;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 7px;
+      background-color: white;
+    flex-grow: 0;
+    height: 267px;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+/* Para 800px */  
+@media only screen and (max-width: 820px) and (min-width: 576px) {  
+  
+  .col-sm-4,.col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+  
+} 
+
+
+
+@media (min-width:1440px) {
+  
+
+    #container-main{
+    
+    width: 1328px !important;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+}
+
+
+
+

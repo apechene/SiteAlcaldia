@@ -1,0 +1,43 @@
+{#
+/**
+ * @file
+ * Theme override for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ */
+#}
+
+
+
+
+<form{{ attributes }}>
+{% if attributes.id == 'user-login-form' %}
+  <p id="titulo-inicios">Iniciar sesión</p>
+  <p id="new-user"> ¿Eres nuevo en este sitio? <a href="/user/register">Registrate</a> </p>
+{% endif %}
+
+{% if attributes.id == 'user-pass' %}
+  <p id="titulo-inicios">Restablecer contraseña</p>
+  
+{% endif %}
+
+{% if attributes.id == 'user-register-form' %}
+<p id="registro-usuario">Regístrate</p>
+{% endif %}
+
+
+{% if attributes.id == 'user-form' %}
+<p id="registro-usuario">Editar usuario</p>
+{% endif %}
+  {{ children }}
+  
+  {% if attributes.id == 'user-login-form' %}
+
+  <a href="/user/password" id="password-restart" > ¿Olvidate la contraseña? </a>
+
+  {% endif %}
+</form>

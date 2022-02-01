@@ -1,0 +1,303 @@
+[13-Nov-2021 11:17:36 UTC] Drupal\Core\Database\DatabaseAccessDeniedException: SQLSTATE[HY000] [1045] Access denied for user 'u442037593_anderson'@'localhost' (using password: YES) in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php on line 192 #0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Database/Database.php(380): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#2 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#3 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#4 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/Container.php(176): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#5 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#6 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#7 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/Container.php(176): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#8 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(550): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#9 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(903): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#10 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(473): Drupal\Core\DrupalKernel->initializeContainer()
+#11 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(716): Drupal\Core\DrupalKernel->boot()
+#12 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#13 {main}
+[13-Nov-2021 11:17:42 UTC] Drupal\Core\Database\DatabaseAccessDeniedException: SQLSTATE[HY000] [1045] Access denied for user 'u442037593_anderson'@'localhost' (using password: YES) in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php on line 192 #0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Database/Database.php(380): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#2 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#3 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#4 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/Container.php(176): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#5 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#6 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#7 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/DependencyInjection/Container.php(176): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#8 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(550): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#9 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(903): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#10 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(473): Drupal\Core\DrupalKernel->initializeContainer()
+#11 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(716): Drupal\Core\DrupalKernel->boot()
+#12 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#13 {main}
+[13-Nov-2021 06:22:06 America/Bogota] Error: Class 'Twig\Node\Expression\Binary\ConcatBinary' not found in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/ExpressionParser.php on line 85 #0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/ExpressionParser.php(338): Twig\ExpressionParser->parseExpression()
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/ExpressionParser.php(279): Twig\ExpressionParser->parseArrayExpression()
+#2 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/ExpressionParser.php(677): Twig\ExpressionParser->parseExpression()
+#5 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/TokenParser/SetTokenParser.php(38): Twig\ExpressionParser->parseMultitargetExpression()
+#6 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/Parser.php(185): Twig\TokenParser\SetTokenParser->parse(Object(Twig\Token))
+#7 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/Parser.php(98): Twig\Parser->subparse(NULL, false)
+#8 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/Environment.php(563): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/Environment.php(595): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Template/TwigEnvironment.php(132): Twig\Environment->compileSource(Object(Twig\Source))
+#11 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/Environment.php(408): Drupal\Core\Template\TwigEnvironment->compileSource(Object(Twig\Source))
+#12 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/twig/twig/src/Environment.php(381): Twig\Environment->loadClass('__TwigTemplate_...', 'core/themes/cla...', NULL)
+#13 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/themes/engines/twig/twig.engine(65): Twig\Environment->loadTemplate('core/themes/cla...')
+#14 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Theme/ThemeManager.php(384): twig_render_template('core/themes/cla...', Array)
+#15 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/Renderer.php(436): Drupal\Core\Theme\ThemeManager->render('field', Array)
+#16 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/Renderer.php(201): Drupal\Core\Render\Renderer->doRender(Array, false)
+#17 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Entity/Controller/EntityViewController.php(74): Drupal\Core\Render\Renderer->render(Array)
+#18 [internal function]: Drupal\Core\Entity\Controller\EntityViewController->buildTitle(Array)
+#19 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php(101): call_user_func_array(Array, Array)
+#20 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/Renderer.php(786): Drupal\Core\Render\Renderer->doTrustedCallback(Array, Array, 'Render #pre_ren...', 'exception', 'Drupal\\Core\\Ren...')
+#21 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/Renderer.php(377): Drupal\Core\Render\Renderer->doCallback('#pre_render', Array, Array)
+#22 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/Renderer.php(201): Drupal\Core\Render\Renderer->doRender(Array, false)
+#23 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/MainContent/HtmlRenderer.php(241): Drupal\Core\Render\Renderer->render(Array, false)
+#24 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/Renderer.php(578): Drupal\Core\Render\MainContent\HtmlRenderer->Drupal\Core\Render\MainContent\{closure}()
+#25 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/MainContent/HtmlRenderer.php(242): Drupal\Core\Render\Renderer->executeInRenderContext(Object(Drupal\Core\Render\RenderContext), Object(Closure))
+#26 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/Render/MainContent/HtmlRenderer.php(132): Drupal\Core\Render\MainContent\HtmlRenderer->prepare(Array, Object(Symfony\Component\HttpFoundation\Request), Object(Drupal\Core\Routing\CurrentRouteMatch))
+#27 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/EventSubscriber/MainContentViewSubscriber.php(90): Drupal\Core\Render\MainContent\HtmlRenderer->renderResponse(Array, Object(Symfony\Component\HttpFoundation\Request), Object(Drupal\Core\Routing\CurrentRouteMatch))
+#28 [internal function]: Drupal\Core\EventSubscriber\MainContentViewSubscriber->onViewRenderArray(Object(Symfony\Component\HttpKernel\Event\ViewEvent), 'kernel.view', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#29 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(142): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\ViewEvent), 'kernel.view', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#30 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/symfony/http-kernel/HttpKernel.php(163): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch(Object(Symfony\Component\HttpKernel\Event\ViewEvent), 'kernel.view')
+#31 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/symfony/http-kernel/HttpKernel.php(80): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#32 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#33 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#34 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(191): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#35 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(128): Drupal\page_cache\StackMiddleware\PageCache->fetch(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#36 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/modules/page_cache/src/StackMiddleware/PageCache.php(82): Drupal\page_cache\StackMiddleware\PageCache->lookup(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#37 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#38 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(52): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#39 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#40 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/core/lib/Drupal/Core/DrupalKernel.php(717): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#41 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/web/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#42 {main}
+[13-Nov-2021 10:13:43 America/Bogota] Uncaught PHP Exception Drupal\Core\File\Exception\DirectoryNotReadyException: "The specified file 'temporary://fileB1DkIU' could not be copied because the destination directory 'public://asset_injector/css' is not properly configured. This may be caused by a problem with file or directory permissions." at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/File/FileSystem.php line 476
+[13-Nov-2021 10:30:00 America/Bogota] Uncaught PHP Exception Drupal\Core\File\Exception\DirectoryNotReadyException: "The specified file 'temporary://file2DeUPO' could not be copied because the destination directory 'public://asset_injector/css' is not properly configured. This may be caused by a problem with file or directory permissions." at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/File/FileSystem.php line 476
+[13-Nov-2021 10:30:01 America/Bogota] Uncaught PHP Exception Drupal\Core\File\Exception\DirectoryNotReadyException: "The specified file 'temporary://file6zs5Xr' could not be copied because the destination directory 'public://asset_injector/css' is not properly configured. This may be caused by a problem with file or directory permissions." at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/File/FileSystem.php line 476
+[13-Nov-2021 10:30:05 America/Bogota] Uncaught PHP Exception Drupal\Core\File\Exception\DirectoryNotReadyException: "The specified file 'temporary://fileYQb9dd' could not be copied because the destination directory 'public://asset_injector/css' is not properly configured. This may be caused by a problem with file or directory permissions." at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/File/FileSystem.php line 476
+[13-Nov-2021 15:46:50 UTC] Symfony\Component\HttpKernel\Exception\BadRequestHttpException: The provided host name is not valid for this server. in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/DrupalKernel.php on line 1080 #0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/DrupalKernel.php(272): Drupal\Core\DrupalKernel->initializeSettings(Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/modules/statistics/statistics.php(15): Drupal\Core\DrupalKernel::createFromRequest(Object(Symfony\Component\HttpFoundation\Request), Object(Composer\Autoload\ClassLoader), 'prod')
+#2 {main}
+[13-Nov-2021 15:47:03 UTC] Symfony\Component\HttpKernel\Exception\BadRequestHttpException: The provided host name is not valid for this server. in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/DrupalKernel.php on line 1080 #0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/DrupalKernel.php(272): Drupal\Core\DrupalKernel->initializeSettings(Object(Symfony\Component\HttpFoundation\Request))
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/modules/statistics/statistics.php(15): Drupal\Core\DrupalKernel::createFromRequest(Object(Symfony\Component\HttpFoundation\Request), Object(Composer\Autoload\ClassLoader), 'prod')
+#2 {main}
+[13-Nov-2021 10:56:10 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[13-Nov-2021 10:56:14 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[13-Nov-2021 10:56:19 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[13-Nov-2021 10:56:23 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[13-Nov-2021 10:57:28 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[13-Nov-2021 12:05:55 America/Bogota] Uncaught PHP Exception Drupal\Core\File\Exception\DirectoryNotReadyException: "The specified file 'temporary://fileUSWZcR' could not be copied because the destination directory 'public://asset_injector/css' is not properly configured. This may be caused by a problem with file or directory permissions." at /home/u442037593/domains/pruebasanderson.xyz/public_html/new/web/core/lib/Drupal/Core/File/FileSystem.php line 476
+[13-Nov-2021 12:06:24 America/Bogota] Uncaught PHP Exception Drupal\Core\File\Exception\DirectoryNotReadyException: "The specified file 'temporary://filecia0mX' could not be copied because the destination directory 'public://asset_injector/css' is not properly configured. This may be caused by a problem with file or directory permissions." at /home/u442037593/domains/pruebasanderson.xyz/public_html/new/web/core/lib/Drupal/Core/File/FileSystem.php line 476
+[13-Nov-2021 12:35:30 America/Bogota] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction: INSERT INTO "cache_config" ("cid", "expire", "created", "tags", "checksum", "data", "serialized") VALUES (:db_insert_placeholder_0, :db_insert_placeholder_1, :db_insert_placeholder_2, :db_insert_placeholder_3, :db_insert_placeholder_4, :db_insert_placeholder_5, :db_insert_placeholder_6), (:db_insert_placeholder_7, :db_insert_placeholder_8, :db_insert_placeholder_9, :db_insert_placeholder_10, :db_insert_placeholder_11, :db_insert_placeholder_12, :db_insert_placeholder_13), (:db_insert_placeholder_14, :db_insert_placeholder_15, :db_insert_placeholder_16, :db_insert_placeholder_17, :db_insert_placeholder_18, :db_insert_placeholder_19, :db_insert_placeholder_20), (:db_insert_placeholder_21, :db_insert_placeholder_22, :db_insert_placeholder_23, :db_insert_placeholder_24, :db_insert_placeholder_25, :db_insert_placeholder_26, :db_insert_placeholder_27), (:db_insert_placeholder_28, :db_insert_placeholder_29, :db_insert_placeholder_30, :db_insert_placeholder_31, :db_insert_placeholder_32, :db_insert_placeholder_33, :db_insert_placeholder_34), (:db_insert_placeholder_35, :db_insert_placeholder_36, :db_insert_placeholder_37, :db_insert_placeholder_38, :db_insert_placeholder_39, :db_insert_placeholder_40, :db_insert_placeholder_41), (:db_insert_placeholder_42, :db_insert_placeholder_43, :db_insert_placeholder_44, :db_insert_placeholder_45, :db_insert_placeholder_46, :db_insert_placeholder_47, :db_insert_placeholder_48), (:db_insert_placeholder_49, :db_insert_placeholder_50, :db_insert_placeholder_51, :db_insert_placeholder_52, :db_insert_placeholder_53, :db_insert_placeholder_54, :db_insert_placeholder_55), (:db_insert_placeholder_56, :db_insert_placeholder_57, :db_insert_placeholder_58, :db_insert_placeholder_59, :db_insert_placeholder_60, :db_insert_placeholder_61, :db_insert_placeholder_62), (:db_insert_placeholder_63, :db_insert_placeholder_64, :db_insert_placeholder_65, :db_insert_placeholder_66, :db_insert_placeholder_67, :db_insert_placeholder_68, :db_insert_placeholder_69), (:db_insert_placeholder_70, :db_insert_placeholder_71, :db_insert_placeholder_72, :db_insert_placeholder_73, :db_insert_placeholder_74, :db_insert_placeholder_75, :db_insert_placeholder_76), (:db_insert_placeholder_77, :db_insert_placeholder_78, :db_insert_placeholder_79, :db_insert_placeholder_80, :db_insert_placeholder_81, :db_insert_placeholder_82, :db_insert_placeholder_83), (:db_insert_placeholder_84, :db_insert_placeholder_85, :db_insert_placeholder_86, :db_insert_placeholder_87, :db_insert_placeholder_88, :db_insert_placeholder_89, :db_insert_placeholder_90), (:db_insert_placeholder_91, :db_insert_placeholder_92, :db_insert_placeholder_93, :db_insert_placeholder_94, :db_insert_placeholder_95, :db_insert_placeholder_96, :db_insert_placeholder_97), (:db_insert_placeholder_98, :db_insert_placeholder_99, :db_insert_placeholder_100, :db_insert_placeholder_101, :db_insert_placeholder_102, :db_insert_placeholder_103, :db_insert_placeholder_104), (:db_insert_placeholder_105, :db_insert_placeholder_106, :db_insert_placeholder_107, :db_insert_placeholder_108, :db_insert_placeholder_109, :db_insert_placeholder_110, :db_insert_placeholder_111), (:db_insert_placeholder_112, :db_insert_placeholder_113, :db_insert_placeholder_114, :db_insert_placeholder_115, :db_insert_placeholder_116, :db_insert_placeholder_117, :db_insert_placeholder_118), (:db_insert_placeholder_119, :db_insert_placeholder_120, :db_insert_placeholder_121, :db_insert_placeholder_122, :db_insert_placeholder_123, :db_insert_placeholder_124, :db_insert_placeholder_125), (:db_insert_placeholder_126, :db_insert_placeholder_127, :db_insert_placeholder_128, :db_insert_placeholder_129, :db_insert_placeholder_130, :db_insert_placeholder_131, :db_insert_placeholder_132), (:db_insert_placeholder_133, :db_insert_placeholder_134, :db_insert_placeholder_135, :db_insert_placeholder_136, :db_insert_placeholder_137, :db_insert_placeholder_138, :db_insert_placeholder_139), (:db_insert_placeholder_140, :db_insert_placeholder_141, :db_insert_placeholder_142, :db_insert_placeholder_143, :db_insert_placeholder_144, :db_insert_placeholder_145, :db_insert_placeholder_146) ON DUPLICATE KEY UPDATE "cid" = VALUES("cid"), "expire" = VALUES("expire"), "created" = VALUES("created"), "tags" = VALUES("tags"), "checksum" = VALUES("checksum"), "data" = VALUES("data"), "serialized" = VALUES("serialized"); Array
+(
+    [:db_insert_placeholder_0] => core.base_field_override.node.evento.nid
+    [:db_insert_placeholder_1] => -1
+    [:db_insert_placeholder_2] => 1636824930.578
+    [:db_insert_placeholder_3] => 
+    [:db_insert_placeholder_4] => 0
+    [:db_insert_placeholder_5] => b:0;
+    [:db_insert_placeholder_6] => 1
+    [:db_insert_placeholder_7] => core.base_field_override.node.evento.uuid
+    [:db_insert_placeholder_8] => -1
+    [:db_insert_placeholder_9] => 1636824930.578
+    [:db_insert_placeholder_10] => 
+    [:db_insert_placeholder_11] => 0
+    [:db_insert_placeholder_12] => b:0;
+    [:db_insert_placeholder_13] => 1
+    [:db_insert_placeholder_14] => core.base_field_override.node.evento.vid
+    [:db_insert_placeholder_15] => -1
+    [:db_insert_placeholder_16] => 1636824930.578
+    [:db_insert_placeholder_17] => 
+    [:db_insert_placeholder_18] => 0
+    [:db_insert_placeholder_19] => b:0;
+    [:db_insert_placeholder_20] => 1
+    [:db_insert_placeholder_21] => core.base_field_override.node.evento.langcode
+    [:db_insert_placeholder_22] => -1
+    [:db_insert_placeholder_23] => 1636824930.578
+    [:db_insert_placeholder_24] => 
+    [:db_insert_placeholder_25] => 0
+    [:db_insert_placeholder_26] => b:0;
+    [:db_insert_placeholder_27] => 1
+    [:db_insert_placeholder_28] => core.base_field_override.node.evento.type
+    [:db_insert_placeholder_29] => -1
+    [:db_insert_placeholder_30] => 1636824930.578
+    [:db_insert_placeholder_31] => 
+    [:db_insert_placeholder_32] => 0
+    [:db_insert_placeholder_33] => b:0;
+    [:db_insert_placeholder_34] => 1
+    [:db_insert_placeholder_35] => core.base_field_override.node.evento.revision_timestamp
+    [:db_insert_placeholder_36] => -1
+    [:db_insert_placeholder_37] => 1636824930.578
+    [:db_insert_placeholder_38] => 
+    [:db_insert_placeholder_39] => 0
+    [:db_insert_placeholder_40] => b:0;
+    [:db_insert_placeholder_41] => 1
+    [:db_insert_placeholder_42] => core.base_field_override.node.evento.revision_uid
+    [:db_insert_placeholder_43] => -1
+    [:db_insert_placeholder_44] => 1636824930.578
+    [:db_insert_placeholder_45] => 
+    [:db_insert_placeholder_46] => 0
+    [:db_insert_placeholder_47] => b:0;
+    [:db_insert_placeholder_48] => 1
+    [:db_insert_placeholder_49] => core.base_field_override.node.evento.revision_log
+    [:db_insert_placeholder_50] => -1
+    [:db_insert_placeholder_51] => 1636824930.578
+    [:db_insert_placeholder_52] => 
+    [:db_insert_placeholder_53] => 0
+    [:db_insert_placeholder_54] => b:0;
+    [:db_insert_placeholder_55] => 1
+    [:db_insert_placeholder_56] => core.base_field_override.node.evento.status
+    [:db_insert_placeholder_57] => -1
+    [:db_insert_placeholder_58] => 1636824930.578
+    [:db_insert_placeholder_59] => 
+    [:db_insert_placeholder_60] => 0
+    [:db_insert_placeholder_61] => b:0;
+    [:db_insert_placeholder_62] => 1
+    [:db_insert_placeholder_63] => core.base_field_override.node.evento.uid
+    [:db_insert_placeholder_64] => -1
+    [:db_insert_placeholder_65] => 1636824930.578
+    [:db_insert_placeholder_66] => 
+    [:db_insert_placeholder_67] => 0
+    [:db_insert_placeholder_68] => b:0;
+    [:db_insert_placeholder_69] => 1
+    [:db_insert_placeholder_70] => core.base_field_override.node.evento.title
+    [:db_insert_placeholder_71] => -1
+    [:db_insert_placeholder_72] => 1636824930.578
+    [:db_insert_placeholder_73] => 
+    [:db_insert_placeholder_74] => 0
+    [:db_insert_placeholder_75] => b:0;
+    [:db_insert_placeholder_76] => 1
+    [:db_insert_placeholder_77] => core.base_field_override.node.evento.created
+    [:db_insert_placeholder_78] => -1
+    [:db_insert_placeholder_79] => 1636824930.578
+    [:db_insert_placeholder_80] => 
+    [:db_insert_placeholder_81] => 0
+    [:db_insert_placeholder_82] => b:0;
+    [:db_insert_placeholder_83] => 1
+    [:db_insert_placeholder_84] => core.base_field_override.node.evento.changed
+    [:db_insert_placeholder_85] => -1
+    [:db_insert_placeholder_86] => 1636824930.578
+    [:db_insert_placeholder_87] => 
+    [:db_insert_placeholder_88] => 0
+    [:db_insert_placeholder_89] => b:0;
+    [:db_insert_placeholder_90] => 1
+    [:db_insert_placeholder_91] => core.base_field_override.node.evento.promote
+    [:db_insert_placeholder_92] => -1
+    [:db_insert_placeholder_93] => 1636824930.578
+    [:db_insert_placeholder_94] => 
+    [:db_insert_placeholder_95] => 0
+    [:db_insert_placeholder_96] => b:0;
+    [:db_insert_placeholder_97] => 1
+    [:db_insert_placeholder_98] => core.base_field_override.node.evento.sticky
+    [:db_insert_placeholder_99] => -1
+    [:db_insert_placeholder_100] => 1636824930.578
+    [:db_insert_placeholder_101] => 
+    [:db_insert_placeholder_102] => 0
+    [:db_insert_placeholder_103] => b:0;
+    [:db_insert_placeholder_104] => 1
+    [:db_insert_placeholder_105] => core.base_field_override.node.evento.default_langcode
+    [:db_insert_placeholder_106] => -1
+    [:db_insert_placeholder_107] => 1636824930.578
+    [:db_insert_placeholder_108] => 
+    [:db_insert_placeholder_109] => 0
+    [:db_insert_placeholder_110] => b:0;
+    [:db_insert_placeholder_111] => 1
+    [:db_insert_placeholder_112] => core.base_field_override.node.evento.revision_default
+    [:db_insert_placeholder_113] => -1
+    [:db_insert_placeholder_114] => 1636824930.578
+    [:db_insert_placeholder_115] => 
+    [:db_insert_placeholder_116] => 0
+    [:db_insert_placeholder_117] => b:0;
+    [:db_insert_placeholder_118] => 1
+    [:db_insert_placeholder_119] => core.base_field_override.node.evento.revision_translation_affected
+    [:db_insert_placeholder_120] => -1
+    [:db_insert_placeholder_121] => 1636824930.578
+    [:db_insert_placeholder_122] => 
+    [:db_insert_placeholder_123] => 0
+    [:db_insert_placeholder_124] => b:0;
+    [:db_insert_placeholder_125] => 1
+    [:db_insert_placeholder_126] => core.base_field_override.node.evento.ds_switch
+    [:db_insert_placeholder_127] => -1
+    [:db_insert_placeholder_128] => 1636824930.578
+    [:db_insert_placeholder_129] => 
+    [:db_insert_placeholder_130] => 0
+    [:db_insert_placeholder_131] => b:0;
+    [:db_insert_placeholder_132] => 1
+    [:db_insert_placeholder_133] => core.base_field_override.node.evento.path
+    [:db_insert_placeholder_134] => -1
+    [:db_insert_placeholder_135] => 1636824930.578
+    [:db_insert_placeholder_136] => 
+    [:db_insert_placeholder_137] => 0
+    [:db_insert_placeholder_138] => b:0;
+    [:db_insert_placeholder_139] => 1
+    [:db_insert_placeholder_140] => core.base_field_override.node.evento.menu_link
+    [:db_insert_placeholder_141] => -1
+    [:db_insert_placeholder_142] => 1636824930.578
+    [:db_insert_placeholder_143] => 
+    [:db_insert_placeholder_144] => 0
+    [:db_insert_placeholder_145] => b:0;
+    [:db_insert_placeholder_146] => 1
+)
+" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Driver/mysql/ExceptionHandler.php line 53
+[15-Nov-2021 11:00:06 America/Bogota] User error: Drupal\Core\Database\DatabaseExceptionWrapper thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Driver/mysql/ExceptionHandler.php on line 53: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: SELECT "s".*, "t"."language" AS "language", "t"."translation" AS "translation", "t"."customized" AS "customized"
+FROM
+"locales_source" "s"
+LEFT OUTER JOIN "locales_target" "t" ON t.lid = s.lid AND t.language = :langcode
+WHERE ("s"."source" IN (:db_condition_placeholder_0)) AND ("s"."context" IN (:db_condition_placeholder_1)); Array
+(
+    [:db_condition_placeholder_0] =&gt; Unable to send email. Contact the site administrator if the problem persists.
+    [:db_condition_placeholder_1] =&gt; 
+    [:langcode] =&gt; es
+)
+ in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 #0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/includes/bootstrap.inc(312): _drupal_error_handler_real(256, 'Drupal\\Core\\Dat...', '/home/u44203759...', 20)
+#1 [internal function]: _drupal_error_handler(256, 'Drupal\\Core\\Dat...', '/home/u44203759...', 20, Array)
+#2 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Component/Utility/ToStringTrait.php(20): trigger_error('Drupal\\Core\\Dat...', 256)
+#3 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Messenger/Messenger.php(54): Drupal\Core\StringTranslation\TranslatableMarkup->__toString()
+#4 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Messenger/Messenger.php(46): Drupal\Core\Messenger\Messenger->addMessage(Object(Drupal\Core\StringTranslation\TranslatableMarkup), 'error', false)
+#5 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Mail/MailManager.php(322): Drupal\Core\Messenger\Messenger->addError(Object(Drupal\Core\StringTranslation\TranslatableMarkup))
+#6 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Mail/MailManager.php(180): Drupal\Core\Mail\MailManager->doMail('update', 'status_notify', 'gestordesarroll...', 'es', Array, NULL, true)
+#7 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Render/Renderer.php(578): Drupal\Core\Mail\MailManager->Drupal\Core\Mail\{closure}()
+#8 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Mail/MailManager.php(181): Drupal\Core\Render\Renderer->executeInRenderContext(Object(Drupal\Core\Render\RenderContext), Object(Closure))
+#9 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/modules/update/update.fetch.inc(43): Drupal\Core\Mail\MailManager->mail('update', 'status_notify', 'gestordesarroll...', 'es', Array)
+#10 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/modules/update/update.module(197): _update_cron_notify()
+#11 [internal function]: update_cron()
+#12 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Extension/ModuleHandler.php(392): call_user_func_array('update_cron', Array)
+#13 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Cron.php(250): Drupal\Core\Extension\ModuleHandler->invoke('update', 'cron')
+#14 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Cron.php(136): Drupal\Core\Cron->invokeCronHandlers()
+#15 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/ProxyClass/Cron.php(75): Drupal\Core\Cron->run()
+#16 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/modules/automated_cron/src/EventSubscriber/AutomatedCron.php(65): Drupal\Core\ProxyClass\Cron->run()
+#17 [internal function]: Drupal\automated_cron\EventSubscriber\AutomatedCron->onTerminate(Object(Symfony\Component\HttpKernel\Event\TerminateEvent), 'kernel.terminat...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#18 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(142): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\TerminateEvent), 'kernel.terminat...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#19 /home/u442037593/domains/pruebasanderson.xyz/public_html/vendor/symfony/http-kernel/HttpKernel.php(100): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch(Object(Symfony\Component\HttpKernel\Event\TerminateEvent), 'kernel.terminat...')
+#20 /home/u442037593/domains/pruebasanderson.xyz/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php(32): Symfony\Component\HttpKernel\HttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Drupal\Core\Routing\LocalRedirectResponse))
+#21 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/DrupalKernel.php(687): Stack\StackedHttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Drupal\Core\Routing\LocalRedirectResponse))
+#22 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/index.php(22): Drupal\Core\DrupalKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Drupal\Core\Routing\LocalRedirectResponse))
+#23 {main}
+[15-Nov-2021 11:00:06 America/Bogota] PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/StatementWrapper.php:116
+Stack trace:
+#0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/StatementWrapper.php(116): PDOStatement->execute(Array)
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Connection.php(874): Drupal\Core\Database\StatementWrapper->execute(Array, Array)
+#2 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Query/Delete.php(55): Drupal\Core\Database\Connection->query('DELETE FROM {se...', Array, Array)
+#3 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Lock/DatabaseLockBackend.php(170): Drupal\Core\Database\Query\Delete->execute()
+#4 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/includes/bootstrap.inc(682): Drupal\Core\Lock\DatabaseLockBackend->releaseAll()
+#5 [internal function]: _drupal_shutdown_function()
+#6 {main}
+
+Next Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: DELETE FROM "semaphore" 
+WHERE "value" = :db_condition_placeholder_0; Array
+(
+    [:db_condition_placeholder_0] => 462009660619283e7bf4fa7.27307691
+)
+ in /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Driver/mysql/ExceptionHandler.php:53
+Stack trace:
+#0 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Connection.php(911): Drupal\Core\Database\Driver\mysql\ExceptionHandler->handleExecutionException(Object(PDOException), Object(Drupal\Core\Database\StatementWrapper), Array, Array)
+#1 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Database/Query/Delete.php(55): Drupal\Core\Database\Connection->query('DELETE FROM {se...', Array, Array)
+#2 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Lock/DatabaseLockBackend.php(170): Drupal\Core\Database\Query\Delete->execute()
+#3 /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/includes/bootstrap.inc(682): Drupal\Core\Lock\DatabaseLockBackend->releaseAll()
+#4 [internal function]: _drupal_shutdown_function()
+#5 {main}
+[20-Nov-2021 02:17:34 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[20-Nov-2021 02:17:37 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[20-Nov-2021 02:17:44 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[20-Nov-2021 02:17:46 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[20-Nov-2021 02:17:49 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[20-Nov-2021 02:18:34 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96
+[20-Nov-2021 03:23:04 America/Bogota] Uncaught PHP Exception Drupal\Core\Security\UntrustedCallbackException: "Render #pre_render callbacks must be methods of a class that implements \Drupal\Core\Security\TrustedCallbackInterface or be an anonymous function. The callback was Drupal\fivestar\Plugin\Field\FieldFormatter\StarsFormatter::previewsExpand. See https://www.drupal.org/node/2966725" at /home/u442037593/domains/pruebasanderson.xyz/public_html/web/core/lib/Drupal/Core/Security/DoTrustedCallbackTrait.php line 96

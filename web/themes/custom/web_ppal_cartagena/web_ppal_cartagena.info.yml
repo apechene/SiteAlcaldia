@@ -1,0 +1,38 @@
+name: web ppal Cartagena theme
+type: theme
+description: ''
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap4
+
+# Stylesheets.
+stylesheets-remove:
+  - '@bootstrap4/css/style.css'
+
+# Libraries.
+libraries:
+  - web_ppal_cartagena/global-styling
+
+# Regions.
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  nav_login: 'Login navigation'
+  nav_accesibilidad: 'Accessibility options'
+  banner: 'Banners'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_first: 'Footer widget first'
+  footer_second: 'Footer widget second'
+  footer_third: 'Footer widget third'
+  copyright: 'Footer Copyright'
+
+
+  
+  
+  #footer: Footer
+

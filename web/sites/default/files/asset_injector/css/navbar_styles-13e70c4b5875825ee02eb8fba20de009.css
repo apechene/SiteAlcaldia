@@ -1,0 +1,159 @@
+/* Colores */
+
+#block-top-2 {
+    min-height: 40px;
+     background: #CD3934;
+}
+
+
+.top_red {
+   
+    padding: 15px;
+ }
+
+
+.white_link {
+   text-decoration: none;
+    color: #fff;
+    padding: 10px;
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+div#top {
+    background: #CD3934;
+}
+
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+/* Estilos de ir a Gov.co */
+
+#block-ir-gov-co-2 {
+    float: right;
+    margin-top: -33px;
+    margin-right: 7%;
+   
+}
+
+.ir_gov_co>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:400px) {
+  #block-ir-gov-co {
+  float: none;
+  max-width:100%;
+  margin-left: 10%;
+   padding: 10px;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-primary {
+    background-color: white !important;
+    box-shadow: 0 12px 26px -11px grey;
+    z-index: 2;
+}
+
+.region.region-nav-main {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+    
+}
+
+.logo_gov_top img{
+          width: 109px;
+    margin-left: 4.7%;
+    margin-top: 5px;
+  
+}
+
+#block-web-ppal-cartagena-branding {
+    margin-left: 15%;
+}
+
+
+.region.region-nav-main {
+    float: left;
+    width:auto !important;
+
+}
+
+
+div#block-searchform {
+    float: inherit;
+}
+
+
+nav#block-web-ppal-cartagena-main-navigation {
+    float: right;
+}
+
+
+input#edit-keys {
+    width: 285px;
+}
+
+#search-block-form #edit-actions #edit-submit  {
+    margin-left: -45px;
+    background-color: red;
+    border: none;
+    background: no-repeat;
+    background-image: url(/sites/default/files/img/lupa.png);
+    margin-top: 4px;
+    color: transparent;
+    outline:0;
+}
+
+ul.navbar-nav.mr-auto {
+    margin-left: -40px;
+}
+
+ul.nav.navbar-nav {
+  
+      width: 253px;
+  
+}
+
+
+nav#block-atencionalciudadano-2 {
+  
+    margin-left: 50px;
+    margin-top: 2px;
+  
+}
+/* Para 320px */  
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+  #block-web-ppal-cartagena-main-navigation {
+    float: left !important;
+    margin-left: 15%;
+}
+} 
+

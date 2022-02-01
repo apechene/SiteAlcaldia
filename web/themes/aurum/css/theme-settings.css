@@ -1,0 +1,48 @@
+.form-item label {
+  display: block;
+}
+.form-type-checkbox label{
+  display: inline-block;
+}
+
+/* Color Radios */
+.color-radios input[type="radio"] {
+  display:none;
+}
+.color-radios .form-item{
+  display: inline-block;
+}
+.color-radios label {
+  display: inline-block !important;
+  width: 32px;
+  height: 32px;
+  border: 2px solid transparent !important;
+  text-indent: -9999px;
+}
+.color-radios input[type="radio"]:checked + label {
+  border: 2px solid #3d3d3d !important;
+}
+#edit-skin-base + label{
+  background: #10C7C7;
+}
+#edit-skin-blue + label{
+  background: #68A5E2;
+}
+#edit-skin-brown + label{
+  background: #975946;
+}
+#edit-skin-green + label{
+  background: #1DC066;
+}
+#edit-skin-lime + label{
+  background: #90C548;
+}
+#edit-skin-orange + label{
+  background: #FC9448;
+}
+#edit-skin-purple + label{
+  background: #8D6BB3;
+}
+#edit-skin-red + label{
+  background: #F06C4C
+}

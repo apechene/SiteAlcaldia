@@ -1,0 +1,18 @@
+  .navbar .block-search form .form-actions {
+    margin-left: 3rem;
+    margin-top: 25px;
+}
+
+.ul.navbar-nav.mr-auto {
+    margin-left: auto;
+}
+
+nav#block-web-ppal-cartagena-main-navigation {
+	float: right;
+	margin-left: 30px;
+}
+
+*, ::before, ::after {
+	box-sizing: border-box;
+	z-index: 2;
+}

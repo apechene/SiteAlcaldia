@@ -1,0 +1,187 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.125);
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    padding: 2px;
+    padding-left: 9%;
+    margin-bottom: 3%;
+}
+
+
+.view.view-lista-de-eventos.view-id-lista_de_eventos.view-display-id-block_1 {
+    width: 60%;
+  
+  }
+
+
+.view.view-slider-eventos.view-id-slider_eventos {
+float: right;
+    margin-top: 5%;
+}
+
+.views-slideshow-controls-bottom .views-slideshow-pager-bullets li{
+    background: #CD3934 !important;
+}
+
+
+
+
+
+
+.views-slideshow-controls-bottom .views-slideshow-pager-bullets li.active {
+    background: #fff !important;
+}
+#block-views-block-lista-de-eventos-block-1{
+ background: #e5e5e5a3;
+      margin-left: -2%;
+    margin-right: -2%;
+    padding: 5%;
+}
+#block-tituloeventos{
+ background: #e5e5e5a3;
+    margin-left: -2%;
+    margin-right: -2%;
+    padding: 5%;
+    text-align: center;
+   
+}
+
+#block-titulogabinete {
+    float: right;
+    width: 100%;
+}
+
+    /* estilpo de listas de eventos - por medio de los cuales se ajusta la apriencia de la lista*/
+
+.field-content.fecha-evento {
+    width: 20%;
+       float: left;
+}
+.views-field.views-field-title.titulo-evetn {
+    float: right;
+    width: 80%;
+    font-size: 14px;
+}
+
+.field-content.lugar-evento-rw {
+    color: #CD3934;
+    font-size: 10px;
+}
+#block-vermaseventos {
+    background: #e5e5e5a3;
+    margin-left: -2%;
+    margin-right: -2%;
+    padding: 5%;
+    text-align: center;
+}
+
+#block-views-block-slider-eventos-block-1 {
+    margin-right: 5%;
+}
+
+
+@media only screen and (max-width: 100px) and (min-width: 5px)  {  
+  
+  #views_slideshow_cycle_div_slider_eventos-block_1_0,#views_slideshow_cycle_teaser_section_slider_eventos-block_1,#views_slideshow_cycle_main_slider_eventos-block_1,.image-style-slider-eventos-ima {
+    width: 50px;
+    height: 50px;}
+  
+} 
+/* Para 400px */  
+@media only screen and (max-width: 299px) and (min-width: 100px)  {  
+  
+  #views_slideshow_cycle_div_slider_eventos-block_1_0,#views_slideshow_cycle_teaser_section_slider_eventos-block_1,#views_slideshow_cycle_main_slider_eventos-block_1,.image-style-slider-eventos-ima {
+    width: 200px;
+    height: 200px;}
+  
+} 
+
+
+/* Para 400px */  
+@media only screen and (max-width: 400px) and (min-width: 300px)  {  
+  
+  #views_slideshow_cycle_div_slider_eventos-block_1_0,#views_slideshow_cycle_teaser_section_slider_eventos-block_1,#views_slideshow_cycle_main_slider_eventos-block_1,.image-style-slider-eventos-ima {
+    width: 200px;
+    height: 200px;}
+  
+} 
+
+
+/* Para 400px */  
+@media only screen and (max-width: 500px) and (min-width: 401px)  {  
+  
+  #views_slideshow_cycle_div_slider_eventos-block_1_0,#views_slideshow_cycle_teaser_section_slider_eventos-block_1,#views_slideshow_cycle_main_slider_eventos-block_1,.image-style-slider-eventos-ima {
+    width: 300px;
+    height: 300px;}
+  
+} 
+
+@media only screen and (max-width: 1200px) and (min-width: 501px)  {  
+  
+  #views_slideshow_cycle_div_slider_eventos-block_1_0,#views_slideshow_cycle_teaser_section_slider_eventos-block_1,#views_slideshow_cycle_main_slider_eventos-block_1,.image-style-slider-eventos-ima {
+    width: 400px;
+    height: 400px;}
+  
+} 
+
+/* Para 960px */  
+@media only screen and (max-width: 1200px) and (min-width: 5px) {  
+
+  
+  .view.view-lista-de-eventos.view-id-lista_de_eventos.view-display-id-block_1 {
+   width: 100%;
+    float: right;
+    margin-right: 5%;
+       margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+ .view.view-slider-eventos.view-id-slider_eventos {
+float: right;
+    margin-top: 5%;
+    width: 100%;
+} 
+  
+  
+  #block-views-block-slider-eventos-block-1 {
+ width: 100%;
+  background: #e5e5e5a3;
+    /* padding: 5%; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  
+  
+}
+
+/* Para 320px */  
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+  .field-content.fecha-evento {
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+  .views-field.views-field-title.titulo-evetn {
+    float: left;
+    width: 80%;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+.views-field.views-field-field-lugar-evento.lugar-evento-envo {
+    width: 50%;
+}
+  
+} 
+
+

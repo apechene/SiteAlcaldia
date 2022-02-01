@@ -1,0 +1,18 @@
+# Mi archivo htaccess
+# Redireccionamiento del Dominio principal a un subdirectorio .htaccess 
+# No cambie la siguiente línea. 
+RewriteEngine on 
+# Cambie ejemplo.com al nombre de su dominio. 
+RewriteCond %{HTTP_HOST} ^(www.)?pruebasanderson.xyz$ 
+# Cambie 'subdirectorio' al subdirectorio que usted utilizará para su dominio principal. 
+RewriteCond %{REQUEST_URI} !^/web/
+# No cambie las siguientes dos líneas. 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+# Cambie 'subdirectorio' al subdirectorio que usted utilizará para su dominio principal. 
+RewriteRule ^(.*)$ /web/
+# Cambie ejemplo.com a su nombre de dominio real. 
+# Cambie 'subdirectorio' al subdirectorio que usted utilizará para su dominio principal 
+# seguido por / y luego el archivo de la página principal de su sitio, por ejemplo: index.php, index.html, etc. 
+RewriteCond %{HTTP_HOST} ^(www.)?pruebasanderson.xyz$ 
+RewriteRule ^(/)?$ /web/index.php  [L]
