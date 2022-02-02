@@ -1,0 +1,25 @@
+#block-web-ppal-cartagena-branding {
+    margin-left: 17%;
+}
+
+
+.logo_gov_top {
+    margin-left:5%;
+}
+
+
+@media (max-width:300px) {
+.navbar .logo {
+  margin-left:-10%;
+    margin-right:0px;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+
+}
+
+@media (max-width: 250px){
+.navbar .logo,.logo_gov_top {
+  display:none;
+}}

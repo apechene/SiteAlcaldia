@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap') ;
+
+.view-ventanilla-movil{
+  
+  
+  display:none;
+  
+}
+
+#views-bootstrap-banner-movil-block-1{
+  
+  
+  display:none;
+  width:initial;
+  
+  
+}
+
+
+@media (max-width: 500px)  {  
+
+
+.block-views-blockventanilla-movil-block-1{
+  
+  /*width: 440px;*/
+  /*margin-left: -19px;*/
+  
+}
+
+#container-main{
+  
+  padding-top: 180px;
+  z-index:initial !important;
+}
+
+
+#views-bootstrap-banner-movil-block-1{
+  
+ display:initial; 
+  
+}
+
+
+#slick-views-ventanilla-sliders-block-1-1-slider{
+  
+  display:none;
+  
+}
+
+
+
+
+#views-bootstrap-carousel-slider-block-1{
+  
+  
+  display:none;
+  
+}
+
+
+
+
+
+.ventanilla_principal{
+  
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.slick__arrow{
+  
+  display:none !important;
+  
+}
+.slick-list{
+  
+  display:none !important;
+  
+}
+
+.view-ventanilla-movil{
+  
+  
+  display:initial !important;
+  
+}
+
+#botones_ventanilla{
+  margin-top: 2% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order:3;
+}
+
+
+
+
+#subtitulo_ventanilla{
+  font-size: 13pt !important;
+      margin-top: 2px !important;
+  order:2;
+  
+}
+
+#titulo_ventanilla{
+  font-size: 23pt !important;
+    margin-top: 127px !important;
+}
+
+
+
+#seleccion_ventanilla{
+  
+  order:4;
+  margin-top: 5% !important;
+  margin-bottom: 40px !important;
+  
+}
+
+.botones_informan {
+    width: 162px !important;
+    margin-top: 3% !important;
+    border-width: 4px !important;
+    
+}
+
+
+
+}
+
+.ventanilla_principal{
+
+overflow: auto;
+opacity: 80%;
+background-color:#058f38;
+min-height:641px;
+
+}
+
+
+
+
+
+#botones_ventanilla{
+
+
+text-align: center; 
+margin-top: 2%;
+
+}
+
+
+.slick-list{
+  
+  margin-left: -2%;
+  width: 104%;
+  
+}
+
+.slick-dots{
+  
+  
+  bottom: 13px;
+  
+}
+  
+  .slick__arrow {
+    margin-top: 95px;
+  }
+
+
+.botones_informan{
+
+  margin-top: 4%;
+    color: #EDCD1F;
+    font-size: 15px;
+    margin-left: 1%;
+    width: 11%;
+    background-color: transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #EDCD1F;
+    padding: 7px;
+
+}
+
+.botones_informan:hover{
+  
+  background-color:#EDCD1F;
+  color:black;
+  
+}
+
+.linea_general{
+
+    margin: 0;
+    height: 14.02px;
+    width: 33.3%;
+    border-style: none;
+    float: left;
+}
+
+
+
+.linea_amarilla{
+    background-color:#EDCD1F;   
+}
+
+.borde_bandera{
+
+overflow: hidden;
+
+}
+
+.linea_verde{
+
+ 
+    background-color: #009900;
+    
+}
+
+
+
+.linea_roja{
+
+background-color: #CD3934;
+
+}
+
+
+#titulo_ventanilla{
+    text-align: center;
+    color: white;
+    font-size: 69pt;
+    margin-top: 28px;
+    font-weight:normal;
+}
+
+#subtitulo_ventanilla{
+ text-align: center;
+    font-weight: bold;
+    font-size: 52px;
+    border: 0;
+    color: #EDCD1F;
+    margin-top: -21px;
+}
+
+
+#seleccion_ventanilla{
+
+    text-align: center; margin-bottom: 75px;
+
+}
+
+
+
+.slick-dots li.slick-active button:before {
+    opacity: 5;
+    color: white;
+}
+.slick-arrow::before {
+    color: #ffffff;
+}
+
+/* ESTILO PARA VENTANILLAS INFORMATIVAS  */
+
+.ventanilla{
+
+    overflow: auto;
+    background-color:#058f38; 
+    padding: 5% 3% 5% 4% ;
+    opacity: 80%;
+    min-height:641px;
+    
+
+}
+
+        a{
+                color: black;
+                }
+        
+              #primera_fila{
+
+overflow: hidden;
+
+              }
+                  
+            .select_recurso .tarjetas{  /* Div contenedor de cada tarjeta */
+                background-color: #ededed;
+                width: 265.7px;
+                height: 118.7px;
+                border-radius: 10px;
+                float: left;
+                margin: 2% 2% 0% 0%;
+                
+            }
+        
+            .select_recurso .iconos-tarjetas{
+                margin-left: 6%;
+                width: 60px;
+                height: 60px;
+                float: left;
+                margin-top: 8%;
+        
+            }
+        
+        
+            .select_recurso .tarjetas:hover{
+                background-color: #EDCD1F; 
+                color: white;
+            }
+        
+        
+            .select_recurso .texto{
+                
+                margin-top: 6%;
+                margin-left: 33%;
+        
+            }
+            .titulo{
+                /*font-family: Montserrat,sans-serif;*/
+                margin-bottom: 2%;
+                font-weight: bold;
+                font-size: 10pt;
+                
+            }
+        
+            .descripcion{
+                font-size: 10pt;
+                text-align: left;
+            }
+        
+
+
+
+.titulo-informacion{
+
+    text-align: center;
+    color:white;
+}
+
+.region-content{
+  padding:0;
+}
+
+.slick-list{
+  
+  margin-top: 186px;
+  
+}
+
+
+.bandera-contenedor{
+  text-align:center;
+  
+}
+
+.bandera-ventanilla{
+     width: 145px; height: 15px;
+    display: initial  !important;
+    height: 17px !important;
+}
+
+.select_recurso{
+  
+    
+    margin-left: 2.5%;
+  
+}
+
+
+/* ESTILOS PARA PROGRAMAS */
+
+.tarjeta-programa img{
+
+    width: 40px;
+    height: 40px;
+    display:initial;
+}
+
+
+
+
+
+
+.titulo-programa{
+
+    background: #cbcbcb;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+.titulo-programa:hover{
+  
+  
+  background-color:#EDCD1F;
+  
+}
+
+
+#contenedor-tprogramas{
+  
+      margin-top: 4%;
+
+  
+}
+
+.contenedor{
+  
+  
+    border-style: none !important;
+   
+    float: left;
+    
+   
+    padding: 0;
+    text-align: center;
+    padding-right: 25px;
+    padding-top:15px;
+     margin-left: 30px;
+
+}
+
+
+.button1 {
+ 
+  width: 175px;
+  height: 64px;
+ border-radius: 8px 8px 0px 0px;
+  
+}
+
+.button2 {
+  border: 0px solid gray;
+  width: 175px;
+  height: 35px;
+  border-radius: 0px 0px 8px 8px;
+   cursor: pointer;
+   
+}
+
+.edit {
+  background-color: #E5E5E5;
+  
+}
+
+
+.tarjeta-programa {
+    width: 50px;
+    height: 50px!important;
+    display: initial !important;
+    padding-top: 10px !important;
+}
+
+.delete {
+  background-color: #E5E5E5;
+}
+
+.titulo-programa{
+
+    background: #cbcbcb;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+   
+}
+
+
+.titulo-programa:hover{
+  
+  
+  background-color: #EDCD1F;
+  color: red;
+  
+}
+
+
+

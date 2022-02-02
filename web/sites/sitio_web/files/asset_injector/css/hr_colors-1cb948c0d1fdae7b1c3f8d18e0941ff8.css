@@ -1,0 +1,9 @@
+hr.titulos_bar {
+  margin-top: 30px;
+    margin-bottom: 15px;
+    width: 20%;
+    height: 13px;
+    border-left: 30px solid #EDCD1F;
+    background: #009900;
+    border-right: 30px solid #CD3934;
+}

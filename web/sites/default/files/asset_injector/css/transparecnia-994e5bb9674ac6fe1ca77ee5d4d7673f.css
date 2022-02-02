@@ -1,0 +1,111 @@
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background: #EDCD1F;
+    border: 1px solid #EDCD1F;
+}
+
+
+.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e {
+    float: right;
+    transform: rotate(90deg);
+ 
+} 
+.region.region-content {
+    padding: 5%;
+}
+.ui-accordion-header {
+    padding-top: 22% !important;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.view-content h3 {
+    background-image: url(https://pruebatest.cartagena.gov.co/sites/sitio_web/files/transparencia/presupuesto.svg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: 14%;
+    min-height: 130px;
+        text-align: center;
+        
+  
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+}
+
+
+
+#block-views-block-1-mecanismos-de-contacto-block-10,
+#block-views-block-1-mecanismos-de-contacto-block-1,
+#block-views-block-1-mecanismos-de-contacto-block-3,
+#block-views-block-1-mecanismos-de-contacto-block-9,
+#block-views-block-1-mecanismos-de-contacto-block-6,
+#block-views-block-1-mecanismos-de-contacto-block-8
+{
+    float: left;
+    padding: 1%;
+}
+
+#block-views-block-1-mecanismos-de-contacto-block-7,
+#block-views-block-1-mecanismos-de-contacto-block-5,
+#block-views-block-1-mecanismos-de-contacto-block-2,
+#block-views-block-1-mecanismos-de-contacto-block-4,
+
+#block-views-block-1-mecanismos-de-contacto-block-9,
+
+#block-views-block-1-mecanismos-de-contacto-block-11
+{
+   float: right;
+    padding: 1%;
+}
+
+@media only screen and (max-width:900px) and (min-width: 5px)  {  
+  
+   #block-views-block-1-mecanismos-de-contacto-block-1
+  ,#block-views-block-1-mecanismos-de-contacto-block-2
+  ,#block-views-block-1-mecanismos-de-contacto-block-3
+  ,#block-views-block-1-mecanismos-de-contacto-block-4
+  ,#block-views-block-1-mecanismos-de-contacto-block-5
+  ,#block-views-block-1-mecanismos-de-contacto-block-10
+  ,#block-views-block-1-mecanismos-de-contacto-block-9
+  ,#block-views-block-1-mecanismos-de-contacto-block-8
+  ,#block-views-block-1-mecanismos-de-contacto-block-11
+  ,#block-views-block-1-mecanismos-de-contacto-block-6
+  ,#block-views-block-1-mecanismos-de-contacto-block-7
+  {
+    min-width: 100%;
+}
+  
+  
+  
+  
+} 
+
+@media (min-width: 900px) {
+   #block-views-block-1-mecanismos-de-contacto-block-1
+  ,#block-views-block-1-mecanismos-de-contacto-block-2
+  ,#block-views-block-1-mecanismos-de-contacto-block-3
+  ,#block-views-block-1-mecanismos-de-contacto-block-4
+   ,#block-views-block-1-mecanismos-de-contacto-block-5
+   ,#block-views-block-1-mecanismos-de-contacto-block-10
+     ,#block-views-block-1-mecanismos-de-contacto-block-9
+     ,#block-views-block-1-mecanismos-de-contacto-block-8
+     ,#block-views-block-1-mecanismos-de-contacto-block-11
+       ,#block-views-block-1-mecanismos-de-contacto-block-6
+       ,#block-views-block-1-mecanismos-de-contacto-block-7
+     {
+    min-width: 50%;
+    max-width: 50%;
+}
+}
+@media only screen and (max-width: 400px) and (min-width: 5px)  {  
+  .view-content h3 {
+ min-height: 100px !important;
+}
+
+.view-content {
+    width: 94%;
+}
+} 
+

@@ -1,0 +1,13 @@
+.view-id-2_noticias .views-col.col-1 {
+	width: 60% !important;
+	max-width: 60% !important;
+}
+.view-id-2_noticias .views-col.col-2 {
+	width: 40% !important;
+	max-width: 40% !important;
+}
+@media screen and (max-width: 600px) {
+  .view-id-2_noticias .views-col {
+    width: 100%;
+  }
+}

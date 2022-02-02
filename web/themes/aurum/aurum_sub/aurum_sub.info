@@ -1,0 +1,47 @@
+name = Aurum Sub-Theme
+description = Aurum is Responsive Drupal 7 Theme.
+core = 7.x
+engine = phptemplate
+
+base theme = aurum
+
+regions[top]                = Top
+regions[content_top]        = Content Top
+regions[content]            = Content
+regions[sidebar]            = Sidebar
+regions[bottom]             = Content Bottom
+regions[footer]             = Footer
+
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/bootstrap-utilities.css
+
+features[] = name
+features[] = logo
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+
+settings[toggle_name] = 1
+settings[toggle_logo] = 1
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+
+settings[menu] = 1
+settings[skin] = base
+settings[menu_color] = pi-section-grey pi-shadow-inside
+settings[404_title] = PAGE NOT FOUND!
+settings[404_text] = We're sorry, the page you requested cannot be found.<br/>You can go back to
+settings[403_title] = ACCESS DENIED!
+settings[403_text] = We're sorry, the page you requested cannot be accessed.
+settings[sticky] = 1
+
+version = "7.x-1.7"
+core = "7.x"
+project = "aurum"

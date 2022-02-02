@@ -1,0 +1,119 @@
+#block-titulogabinete {
+      margin-left: -2%;
+    margin-right: -2%;
+    padding: 5%;
+    text-align: center;
+}
+
+.gabinete-list.views-col {
+    min-width: 25%;
+    padding: 1%;
+    }
+
+#block-views-block-gabinete-block-1{
+
+    background: #e5e5e5a3;
+    margin-left: -2%;
+    margin-right: -2%;
+    padding: 5%;
+    text-align: center;
+}
+#block-vermasgabinete {
+    background: #e5e5e5a3;
+    margin-left: -2%;
+    margin-right: -2%;
+    padding: 5%;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+
+
+.image-style-slick-media {
+    border-radius: 50%;
+    width: 272px;
+    height: 285px;
+}
+
+.view.view-gabinete.view-id-gabinete.view-display-id-block_1.js-view-dom-id-92595ed0027bfd0b036fca921fffca4eed24d856812728116ed427c7519b474c {
+    padding: 5%;
+}
+
+.field-content.titulo-gab {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: #009900;
+    text-align: center;
+}
+
+.field-content.cargo-gab {
+    text-align: center;
+    font-size: 14px;
+    color: #606060;
+}
+
+
+.views-field.views-field-title.img-gab-env {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ima-gab {
+    text-align: center;
+}
+
+.image-style-slick-media:hover {
+    filter: opacity(0.5);
+}
+
+ /* resonsive*/
+
+@media (max-width:700px) {
+.gabinete-list.views-col{
+    max-width: 100% !important;
+    float:right;
+    min-width: 100% !important;
+}}
+/* Para 800px */  
+
+
+/* Para 800px */  
+@media only screen and (max-width: 1300px) and (min-width: 701px) {  
+  .gabinete-list.views-col{
+    max-width: 50% !important;
+    float:right;
+    min-width: 50% !important;
+}
+}
+
+/* Para 800px */  
+@media only screen and (max-width: 150px) and (min-width: 5px) {  
+
+.image-style-slick-media {
+    width: 50px;
+    height: 50px;
+}
+
+}
+
+/* Para 800px */  
+@media only screen and (max-width: 250px) and (min-width: 151px) {  
+
+.image-style-slick-media {
+    width: 100px;
+    height: 100px;
+}
+
+}
+
+@media only screen and (max-width: 351px) and (min-width: 251px) {  
+
+.image-style-slick-media {
+    width: 150px;
+    height: 150px;
+}
+
+}

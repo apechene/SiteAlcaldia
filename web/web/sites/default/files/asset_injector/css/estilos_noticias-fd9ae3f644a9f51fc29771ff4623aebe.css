@@ -1,0 +1,29 @@
+.bg-primary {
+  
+  box-shadow:none !important;
+  
+}
+
+.breadcrumb{
+  
+      background-color: #e0e0e0;
+          padding-left: 14%;
+
+
+}
+
+article[role='article']{
+      width: 73%;
+    margin: auto;
+}
+
+
+/* ESTILOS IMAGEN PRINCIPAL */
+
+.field--name-field-imagenes img{
+   width: 100%;
+    height: auto;
+        border-radius: 30px;
+
+}
+

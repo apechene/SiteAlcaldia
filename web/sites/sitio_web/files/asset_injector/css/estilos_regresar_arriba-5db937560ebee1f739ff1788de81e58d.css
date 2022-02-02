@@ -1,0 +1,18 @@
+#irArriba {
+position: fixed;
+    bottom: 20px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #009900;
+    display:none;
+    border: none;
+    opacity: .8;
+    z-index: 9;
+    margin-top: 2px;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+#irArriba img {
+    width: 34px;
+}

@@ -1,0 +1,45 @@
+.nav>li>a {
+    color: #777777;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+text-decoration: none;
+    background-color: #eee0;
+}
+ul.menu.menu--atencion-al-ciudadano-2.nav{
+    /* background: red; */
+    max-width: 166px;
+    /* position: absolute; */
+    float: right;
+    padding: 2px;
+    margin-top: 4px;
+    text-decoration: none;
+   
+
+}
+
+#block-atencionalciudadano-2 {
+    background-image: url(/web/sites/default/files/header/atencion_ciud.svg);
+        background-repeat: no-repeat;
+        /* height: 52px; */
+        /*padding: 0px;*/
+        float: right;
+        background-size: 35px 35px;
+        padding-left: 35px;
+    
+      
+     }
+@media (max-width:970px) {
+#block-atencionalciudadano-2{
+ float: left;
+margin-top: 2px;
+}}
+
+@media (max-width:250px) {
+ul.menu.menu--atencion-al-ciudadano-2.nav{
+word-wrap: break-word;
+}}
+
+nav#block-atencionalciudadano-2:hover {
+ background-color: #EDCD1F; 
+}
+
